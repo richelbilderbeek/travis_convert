@@ -5,3 +5,12 @@
 [![Build Status](https://travis-ci.org/richelbilderbeek/travis_convert.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_convert)
 
 Minimal project that uses `convert` and is tested by Travis CI.
+
+It converts:
+
+![Lenna](Lenna.png)
+
+to :
+
+![Edge detected version](Edge.png)
+
