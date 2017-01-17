@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Download Lenna.png
+wget https://en.wikipedia.org/wiki/Lenna#/media/File:Lenna.png
+mv Lenna Lenna.png

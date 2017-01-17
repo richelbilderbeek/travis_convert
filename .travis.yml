@@ -1,0 +1,10 @@
+sudo: require
+
+install:
+  # Cowsay
+  - sudo apt-get install cowsay
+  - export PATH=/usr/bin:/bin:/usr/games
+
+script: 
+  - ./run
+
