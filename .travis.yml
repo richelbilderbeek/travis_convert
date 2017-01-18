@@ -1,10 +1,5 @@
 sudo: require
 
-install:
-  # Cowsay
-  - sudo apt-get install cowsay
-  - export PATH=/usr/bin:/bin:/usr/games
-
 script: 
   # Remove all images to see if they are re-created
   - rm *.png
