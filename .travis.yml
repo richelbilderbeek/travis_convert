@@ -1,3 +1,6 @@
+language: generic
+dist: xenial
+
 script: 
   # Remove all images to see if they are re-created
   - rm *.png
