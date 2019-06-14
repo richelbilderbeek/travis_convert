@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Download Lenna.png
-wget https://upload.wikimedia.org/wikipedia/en/7/7d/Lenna_%28test_image%29.png -o lenna.png
-
+wget https://upload.wikimedia.org/wikipedia/en/7/7d/Lenna_%28test_image%29.png
+mv Lenna_\(test_image\).png lenna.png
 # Convert to edge detected version
 convert lenna.png -charcoal 1 edge.png
