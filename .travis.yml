@@ -1,5 +1,5 @@
 language: generic
-dist: xenial
+dist: bionic
 
 script: 
   # Remove all images to see if they are re-created
