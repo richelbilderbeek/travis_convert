@@ -1,5 +1,9 @@
-language: generic
-dist: xenial
+language: cpp
+dist: bionic
+compiler: gcc
+
+install: 
+  - sudo apt update -qq
 
 script: 
   # Remove all images to see if they are re-created
